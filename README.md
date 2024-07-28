@@ -3,4 +3,4 @@ Detection and removal of specific types of outliers present in different data fo
 
 ## Procedure
 ### Textual Data: Synthetic textual data on a prompt is generated and contaminated by 40% outliers (non-contextual data). LOF is used to detect and remove outlier sentences in anomalous synthetic data.
-[Contextual_Textual_Outlier_Detection.ipynb].
+[Contextual_Textual_Outlier_Detection.ipynb] (Contextual_Textual_Outlier_Detection.ipynb).
