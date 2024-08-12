@@ -9,6 +9,10 @@ Synthetic textual data is generated based on a prompt and contaminated with 40% 
   
 
 ### Numeric Tabular Data
-Synthetic data is generated - scaled and unscaled, scored in the data frame and contaminated with 40% outliers. LOF is used to detect and remove outlier sentences in the anomalous synthetic data.
+Synthetic data is generated - scaled and unscaled, scored in the data frame, and contaminated with 40% outliers. LOF is used to detect and remove outlier sentences in the anomalous synthetic data.
 - [Outliers_in_Numeric_Tabular_Data.ipynb](Outliers_in_Numeric_Tabular_Data.ipynb)
 ![WhatsApp Image 2024-08-10 at 8 35 01 AM (1)](https://github.com/user-attachments/assets/04bd6465-fb5d-4a24-b8a4-bd79212bef62)
+
+### Image Data
+Gaussian noise is added in intervals from 0 to 40% and filtered using Gaussian Filter and NLM (Non-Local Means) filter. NLM shows superior performance in terms of the SSIM metric. The standard SSIM score has been taken as 0.77. 
+- [Gaussian_Outliers_in_Image_using_NLM_and_Gaussian_Filter.ipynb](Gaussian_Outliers_in_Image_using_NLM_and_Gaussian_Filter.ipynb)
