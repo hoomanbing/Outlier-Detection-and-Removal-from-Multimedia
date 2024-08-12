@@ -16,3 +16,4 @@ Synthetic data is generated - scaled and unscaled, scored in the data frame, and
 ### Image Data
 Gaussian noise is added in intervals from 0 to 40% and filtered using Gaussian Filter and NLM (Non-Local Means) filter. NLM shows superior performance in terms of the SSIM metric. The standard SSIM score has been taken as 0.77. 
 - [Gaussian_Outliers_in_Image_using_NLM_and_Gaussian_Filter.ipynb](Gaussian_Outliers_in_Image_using_NLM_and_Gaussian_Filter.ipynb)
+![WhatsApp Image 2024-08-12 at 6 55 48 PM](https://github.com/user-attachments/assets/9dc97b92-aff5-49ba-a6bd-d5f42dd7f3eb)
